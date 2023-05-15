@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>welcome</title>
+        <style>
+            *
+            {
+                margin:0;
+                padding: 0;
+            }
+            .navbar{
+                
+                height:50px;
+                width:100%;
+            }
+            .subnavbar1{
+                float: left;
+                background:linear-gradient(to bottom, #000000 0%, #000099 50%);
+                height:50px;
+                width:25%;
+                
+
+            }
+            .subnavbar1a{
+                float: left;
+                margin-left:5px;
+                height:40px;
+                width:10%;
+               
+                }
+                .subnavbar1a:hover{
+                cursor:pointer;
+                background:linear-gradient(to top,#000000 0%,#cc0099 100%);
+                border-radius: 50%;
+                }
+              
+                .subnavbar1a:active{
+                    position:relative;
+                animation-name: mymove;
+                animation-duration:.1s;
+                cursor:pointer;
+                }
+               @keyframes mymove {
+                      from{bottom:0px;}
+                      to{top:10px;}
+                }
+
+            .subnavbar2{
+                float: left;
+                background:  linear-gradient(to bottom, #000000 0%, #000099 50%);
+                height:50px;
+                width:25%;
+            }
+            .subnavbar3{
+                float: left;
+                background:  linear-gradient(to bottom, #000000  0%, #000099 50%);
+                height:50px;
+                width:25%;
+            }
+            .subnavbar4{
+                float: left;
+                background:  linear-gradient(to bottom, #000000 0%, #000099 50%);
+                height:50px;
+                width:12.5%;
+                
+               
+            }
+           
+            .subnavbar4a{
+                float: left;
+                background:  linear-gradient(to bottom, #000000 0%, #000099 50%);
+                height:50px;
+                width:25%;
+              }
+              .subnavbar4a:hover{
+                cursor:pointer;
+                background:linear-gradient(to top,#000000 0%,#cc0099 100%);
+                border-radius: 50%;
+               
+                }
+
+            .subnavbar4b{
+                float: left;
+                background :linear-gradient(to bottom, #000000 0%, #000099 50%);
+                height:40px;
+                width:75%;
+                color:white;
+                text-align: center;
+                font-size: 1.5vw;
+                padding-top:10px;
+              
+            }
+            
+            .subnavbar5{
+                float: left;
+                background:  linear-gradient(to bottom, #000000  0%, #000099 50%);
+                height:50px;
+                width:12.5%;
+            }
+            .menubar{
+                background:#000099;;
+                height:40px;
+                width:100%;
+                
+            }
+            .totalbottonarea{
+                height:40px;
+                width:500px;
+                position:fixed;
+              
+               
+             
+            } 
+            .totalbottonarea:hover .bottonarea1{
+                display:block;
+               
+            }
+            .menubotton{
+                float:left;
+                height:30px;
+                background:linear-gradient(to bottom, #000000 0%,#000099 100% );
+                width:100px;
+                border-radius: 25px;
+                color:white;
+                text-align:center;
+                padding-top:10px;
+                cursor: pointer;
+                
+             } 
+             
+             .bottonarea{
+                float:left;
+                height:40px;
+                width:400px;
+                
+             } 
+             
+             .bottonarea1{
+                float:left;
+                height:30px;
+                width:100px;
+                background:linear-gradient(to bottom, #000000 0%,#000099 100% );
+                display:none;
+                border-radius: 25px;
+                color: white;
+                text-align:center;
+                padding-top:10px;
+               
+             } 
+             .bottonarea1:hover{
+                background:linear-gradient(to top,#000000 0%,#cc0099 100%);
+                height:32px;
+                position:relative;
+                cursor:pointer;
+
+             }
+           
+            .bottonarea1:active{
+                background:linear-gradient(to top,#000000 0%,#cc0099 100%);
+                position:relative;
+                animation-name: mymove;
+                animation-duration:.1s;
+                cursor: pointer;
+
+             }
+             @keyframes mymove {
+             from {bottom: 0px;}
+             to {top:10px;}
+            }
+            .fixlogo{
+                height:10%;
+                width:5%;
+                border-radius:50%;
+                background:linear-gradient(to bottom, #000000 0%,#000099 100% );
+                position:fixed;
+                float:right;
+                top:7%;
+                right:0%;
+
+            }
+           
+            .fixlogo:hover{
+                background:linear-gradient(to top,#000000 0%,#cc0099 100%);
+             
+            }
+        .main{
+            background:linear-gradient(to bottom, #000099 0%, #cc0099 100%);
+            height:150px;
+            width:100%;
+            
+        }
+        
+        .text{
+            float: left;  
+            height:100px;
+            width:100%;
+            text-align: center;
+            font-size: 2vw;
+            color: white;
+            padding-top:50px;
+           
+           }
+        .photo{
+            background:#cc0099;
+            height:350px;
+            width:100%;
+           
+        }
+        .photo1{
+            background-image:url("images/banner2.png");
+            height:100%;
+            width:100%;
+            background-repeat: no-repeat;
+            background-size:cover;
+        }
+        
+        .content{
+            
+            height:500px;
+            width:100%;
+        }
+
+        .subcontent1{
+           float: left;
+            background: linear-gradient(to bottom, #cc0099 30%, #0066cc 100%);
+            height:100%;
+            width:33.33%;
+        }
+        
+        .subcontent2{
+            float: left;
+            background:  linear-gradient(to bottom, #cc0099 30%, #0066cc 100%);
+            height:100%;
+            width:33.33%;
+        }
+        .subcontent3{
+            float: left;
+            background: linear-gradient(to bottom, #cc0099 30%, #0066cc 100%);
+            height:100%;
+            width:33.33%;
+        }
+
+        .box{
+            
+            
+            height:300px;
+            width:100%;
+        }
+        .box1{
+           float: left;
+            background: linear-gradient(to bottom, #0066cc 0%, #000000 100%);
+            height:100%;
+            width:50%;
+        }
+        .box2{
+           float: left;
+           background: linear-gradient(to bottom, #0000ff 0%, #000000 100%);
+           height:100%;
+           width:50%;
+       }
+       
+        .footer{
+            height:30px;
+            width: 100%;
+        }
+        .footer1{
+            float: left;
+            background-color:black ;
+            height:30px;
+            width: 33.33%;
+        }
+        .footer2{
+            float: left;
+            background-color:black ;
+            height:30px;
+            width: 33.33%;
+            text-align: center; 
+        }
+       
+        
+        .footer3{
+            float: left;
+            background-color:black ;
+            height:30px;
+            width: 33.33%;
+            text-align: right; 
+        }
+
+        
+    </style>
+    </head>
+    <body>
+        <a name="scrolltotop">
+        <div class="navbar">
+
+            <div class="subnavbar1">
+             <div class="subnavbar1a">
+                <img src="images/fblogo2.png" height="100%" width="100%"/>
+             </div>
+             <div class="subnavbar1a">
+                <img src="images/instalogo3.png" height="100%" width="100%"/>
+             </div>
+             <div class="subnavbar1a">
+                <img src="images/twiterlogo1.png" height="100%" width="100%"/>
+             </div>
+             <div class="subnavbar1a">
+                <img src="images/wplogo1.png" height="100%" width="100%"/>
+             </div>
+            </div>
+            <div class="subnavbar2">
+                
+            </div>
+            <div class="subnavbar3">
+
+            </div>
+           <a href="tel:7327023152"><div class="subnavbar4">
+                <div class="subnavbar4a">
+                    <img src="images/calllogo.png"height="100%" width="100%"/>
+                </div>
+                <div class="subnavbar4b">7327023152</div>
+            </div></a>
+
+            <div class="subnavbar5"></div>
+        </div>
+
+        <div class="menubar">
+            <div class="totalbottonarea">
+                <div class="menubotton">MENU</div>
+                <div class="bottonarea">
+                    <div class="bottonarea1">REGISTER</div>
+                    <div class="bottonarea1">LOGIN</div>
+                    <div class="bottonarea1">EXAM</div>
+                    <div class="bottonarea1">RESULT</div>
+                </div>
+            </div>
+        </div>
+
+        <a href="#scrolltotop"><div class="fixlogo"></div></a>
+
+          
+        <div class="main">
+
+            <div class="text">
+                <h1>STUDENT HUB</h1>
+            </div>
+        </div>
+
+        <div class="photo">
+            <div class="photo1"></div>
+        </div>
+
+        <div class="content" >
+              
+            <div class="subcontent1" >
+                  
+            </div>
+
+            <div class="subcontent2">
+                 
+            </div>
+            <div class="subcontent3">
+
+            </div>
+            
+        </div>
+
+        <div class="box">
+
+            <div class="box1">
+
+            </div>
+            <div class="box2">
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer1">
+
+            </div>
+            <div class="footer2">
+              <font color="white">copyright2022</font>
+            </div>
+            <div class="footer3">
+               <font color="white">Terms and conditions | Privacy Policy</font>
+            </div>
+            
+
+        </div>
+    </body>
+</html>

@@ -1,0 +1,315 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    position:fixed;
+    height:50px;
+    width:100%;
+}
+.subnavbar1{
+    float: left;
+    background:linear-gradient(to bottom, #180f24 0%, #231b47 50%);
+    height:50px;
+    width:25%;
+    
+
+}
+.subnavbar1a{
+    float: left;
+    margin-left:5px;
+    height:40px;
+    width:10%;
+   
+    }
+    .subnavbar1a:hover{
+    cursor:pointer;
+    background:#ff6600;
+    border-radius: 50%;
+    }
+  
+    .subnavbar1a:active{
+        position:relative;
+    animation-name: mymove;
+    animation-duration:.1s;
+    cursor:pointer;
+    }
+   @keyframes mymove {
+          from{bottom:0px;}
+          to{top:10px;}
+    }
+
+.subnavbar2{
+    float: left;
+    background:linear-gradient(to bottom, #180f24 0%,#231b47 50%);
+    height:50px;
+    width:25%;
+}
+.subnavbar3{
+    float: left;
+    background:linear-gradient(to bottom, #180f24 0%, #231b47 50%);
+    height:50px;
+    width:25%;
+}
+.subnavbar4{
+    float: left;
+    background:linear-gradient(to bottom, #180f24 0%, #231b47 50%);
+    height:50px;
+    width:12.5%;
+    
+   
+}
+
+.subnavbar4a{
+    float: left;
+    background:  linear-gradient(to bottom, #180f24 0%, #231b47 50%);
+    height:50px;
+    width:25%;
+  }
+  .subnavbar4a:hover{
+    cursor:pointer;
+    background:#ff6600;
+    border-radius: 50%;
+   
+    }
+    .subnavbar4a:active{
+        position:relative;
+    animation-name: mymove;
+    animation-duration:.1s;
+    cursor:pointer;
+    }
+   @keyframes mymove {
+          from{bottom:0px;}
+          to{top:10px;}
+    }
+
+
+.subnavbar4b{
+    float: left;
+    background : linear-gradient(to bottom, #180f24 0%, #231b47 50%);
+    height:40px;
+    width:75%;
+    color:white;
+    text-align: center;
+    font-size: 1.5vw;
+    padding-top:10px;
+  
+}
+
+.subnavbar5{
+    float: left;
+    background:linear-gradient(to bottom, #180f24 0%,#231b47 50%);
+    height:50px;
+    width:12.5%;
+}
+.menubar{
+    height:40px;
+    width:100%;
+    
+}
+.totalbottonarea{
+    height:40px;
+    width:500px;
+    position:fixed;
+    margin-left:32.7%;
+    margin-top: 2%;  
+ 
+} 
+
+
+ .bottonarea1{
+    float:left;
+    height:37px;
+    width:100px;
+    background: #ff6600;
+    transition: all 0.3s ease-in-out; 
+    border-radius: 25px;
+    color: white;
+    text-align:center;
+    padding-top:3px;
+   
+ } 
+ .bottonarea1:hover{
+   
+    transform: scale(1.05);
+    font-weight: bold;
+    position:relative;
+    cursor:pointer;
+
+ }
+
+.bottonarea1:active{
+    background:linear-gradient(to bottom, #231b47 0%, #ff6600 90% );
+    position:relative;
+    animation-name: mymove;
+    animation-duration:.1s;
+    cursor: pointer;
+
+ }
+ @keyframes mymove {
+ from {bottom: 0px;}
+ to {top:10px;}
+}
+.fixlogo{
+    height:6%;
+    width:3%;
+    border-radius:50%;
+    background:	#ff6600;
+    position:fixed;
+    float:right;
+    bottom:0%;
+    right:0%;
+    transition: all 0.3s ease-in-out;
+}
+
+.fixlogo:hover{
+    
+    transform: scale(1.05);
+}
+.main{
+background:linear-gradient(to bottom, #231b47  0%, #180f24 100%);
+height:150px;
+width:100%;
+
+}
+
+.text{
+float: left;  
+height:100px;
+width:100%;
+text-align: center;
+font-size: 2vw;
+color: white;
+padding-top:50px;
+
+}
+.photo{
+background:#180f24;
+height:350px;
+width:100%;
+
+}
+.photo1{
+background-image:url("images/banner4.png");
+height:100%;
+width:100%;
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+.content{
+
+height:500px;
+width:100%;
+}
+#subcontentborder{
+
+height:400px;
+width:400px;
+margin:50px 50px;
+border-radius:10%;
+background:rgb(237, 230, 230);
+padding-top:20px;
+padding-left: 50px;
+color:#ff6600;
+
+
+
+}
+
+.subcontent1{
+float: left;
+background:rgb(244, 240, 240);
+height:500px;
+width:68%;
+padding-left: 32%;
+
+}
+
+.tablearea{
+height:350px;
+width:300px;
+padding-top:50px;
+color:white;
+
+}
+.inputarea{
+background: #433d61;
+color:white;
+width:350px;
+height:30px;
+}
+.queryarea{
+background: #433d61;
+color:white;
+}
+.submitbutton{
+height:30px;
+width:100px;
+background:#ff6600;
+transition: all 0.3s ease-in-out;    
+border-radius: 25px;
+color: white;
+text-align:center;
+padding-top:3.5px;
+}
+.submitbutton:hover{
+
+transform: scale(1.05);  
+position:relative;
+cursor:pointer;
+    
+}
+.submitbutton:active{
+background:linear-gradient(to bottom, #231b47 0%, #ff6600 90% );
+    position:relative;
+    animation-name: mymove;
+    animation-duration:.1s;
+    cursor: pointer;
+
+}
+@keyframes mymove {
+ from {bottom: 0px;}
+ to {top:10px;}
+}
+.textcontentarea{
+    height:50px;
+    width:100%;
+    float:left;
+    text-align: center;
+    font-size: 1vw;
+    color: black;
+    background:rgb(244, 240, 240);
+}
+
+
+.footer{
+height:30px;
+width: 100%;
+margin-top:1.5px;
+}
+.footer1{
+float: left;
+background-color:black ;
+height:30px;
+width: 33.33%;
+}
+.footer2{
+float: left;
+background-color:black ;
+height:30px;
+width: 33.33%;
+text-align: center; 
+}
+
+
+.footer3{
+float: left;
+background-color:black ;
+height:30px;
+width: 33.33%;
+text-align: right; 
+
+}
+
